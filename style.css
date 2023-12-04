@@ -1,3 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+article {
+    height: 130px;
+    width: 50%;
+    background-color: green;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    color: aliceblue;
+    border: 4px solid silver;
+    cursor: default;
+    font-size: 20px;
+    font-family: Arial;
+    max-width: 300px;
+    opacity: 0.2;
+    text-align: center;
+}
 p {
     color: blueviolet;
 }
@@ -26,4 +47,43 @@ b:first-child {
 }
 :focus {
     background-color: brown;
+}
+ul > li {
+    display: block;
+}
+#left {
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 130px;
+    width: 50%;
+    background-color: rgb(49, 58, 49);
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    color: aliceblue;
+    border: 4px solid silver;
+    cursor: default;
+    font-size: 20px;
+    font-family: Arial;
+    max-width: 300px;
+    opacity: 0.2;
+    text-align: center;
+}
+#right {
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 130px;
+    width: 50%;
+    background-color: rgb(17, 219, 17);
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    color: aliceblue;
+    border: 4px solid silver;
+    cursor: default;
+    font-size: 20px;
+    font-family: Arial;
+    max-width: 300px;
+    opacity: 0.2;
+    text-align: center;
 }
