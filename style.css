@@ -1,0 +1,29 @@
+p {
+    color: blueviolet;
+}
+.a {
+    color: pink;
+}
+#pp {
+    color: palevioletred; 
+}
+p[title=Hi] {
+    color: black;
+}
+#letter::first-letter {
+    color: green; 
+}
+a:hover {
+    color: red;
+}
+p:empty {
+    background-color: brown;
+    width: 10px;
+    height: 10px;
+}
+b:first-child {
+    color: red;
+}
+:focus {
+    background-color: brown;
+}
